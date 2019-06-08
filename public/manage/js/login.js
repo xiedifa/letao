@@ -94,7 +94,7 @@ $(function() {
           // alert( "密码错误" );
           // updateStatus
           // 参数1: 字段名称
-          // 参数2: 校验状态
+          // 参数2: 校验状态  
           // 参数3: 校验规则, 可以设置提示文本
           $('#form').data("bootstrapValidator").updateStatus("password", "INVALID", "callback")
         }
